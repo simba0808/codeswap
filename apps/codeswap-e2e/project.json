@@ -1,0 +1,10 @@
+{
+  "name": "codeswap-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/codeswap-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["codeswap"],
+  "// targets": "to see all targets run: nx show project codeswap-e2e --web",
+  "targets": {}
+}

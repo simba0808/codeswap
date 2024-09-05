@@ -1,0 +1,9 @@
+{
+  "name": "@codeprotocol/common-hooks",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/common-hooks/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project @codeprotocol/common-hooks --web",
+  "targets": {}
+}

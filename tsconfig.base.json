@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@codeprotocol/assets": ["libs/assets/src/index.ts"],
+      "@codeprotocol/common-const": ["libs/common-const/src/index.ts"],
+      "@codeprotocol/common-hooks": ["libs/common-hooks/src/index.ts"],
+      "@codeprotocol/common-utils": ["libs/common-utils/src/index.ts"],
+      "@codeprotocol/tokens": ["libs/tokens/src/index.ts"],
+      "@codeprotocol/types": ["libs/types/src/index.ts"],
+      "@codeprotocol/ui": ["libs/ui/src/index.ts"],
+      "@codeprotocol/ui-utils": ["libs/ui-utils/src/index.ts"],
+      "@codeprotocol/wallet": ["libs/wallet/src/index.ts"],
+      "@codeprotocol/wallet-provider": ["libs/wallet-provider/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
